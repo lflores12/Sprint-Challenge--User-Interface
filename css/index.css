@@ -208,3 +208,52 @@ header nav a {
   .middle-content .boxes .box10 {
     background: dodgerblue;
   }
+
+  /* start of about me page */
+
+  .skyline-img {
+      padding-bottom: 20px;
+  }
+
+  .top-about-desc {
+      display: flex;
+      width:800px;
+      flex-wrap: wrap;
+      margin: 0 20px;
+  }
+
+  .about-content {
+      border-top: 1px dashed black;
+      margin-top: 20px;
+      padding-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+
+  .about-content .cards {
+      border-bottom: 1px dashed black;
+      width: 375px;
+      margin-bottom: 50px;
+      padding-bottom: 20px;
+  }
+
+ .about-content .cards h3 {
+      margin-top: 10px;
+  }
+
+  .about-content .cards button {
+      background: white;
+      border-radius: 8px;
+      height: 40px;
+      width: 130px;
+      margin-top: 20px;
+      font-size: 16px;
+      border: 2px solid black;
+
+  }
+
+.lwt-section {
+    margin-left: 20px;
+    margin-bottom: 40px
+}
