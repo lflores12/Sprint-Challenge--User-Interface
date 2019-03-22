@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -143,4 +144,117 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 20px 0;
+    padding-bottom: 20px;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.big-highway-img {
+    padding-bottom: 18px;
+}
+
+.middle-content .boxes .box1 {
+    background:teal;
+  }
+  
+  .middle-content .boxes .box2 {
+    background: gold;
+  }
+  
+  .middle-content .boxes .box3 {
+    background:cadetblue;
+  }
+  
+  .middle-content .boxes .box4 {
+    background: coral;
+  }
+  
+  .middle-content .boxes .box5 {
+    background: crimson;
+  }
+  
+  .middle-content .boxes .box6 {
+    background:forestgreen;
+  }
+  
+  .middle-content .boxes .box7 {
+    background: darkorchid;
+  }
+  
+  .middle-content .boxes .box8 {
+    background: hotpink;
+  }
+  
+  .middle-content .boxes .box9 {
+    background: indigo;
+  }
+  
+  .middle-content .boxes .box10 {
+    background: dodgerblue;
+  }
+
+  /* start of about me page */
+
+  .skyline-img {
+      padding-bottom: 20px;
+  }
+
+  .top-about-desc {
+      display: flex;
+      width:800px;
+      flex-wrap: wrap;
+      margin: 0 20px;
+  }
+
+  .about-content {
+      border-top: 1px dashed black;
+      margin-top: 20px;
+      padding-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+
+  .about-content .cards {
+      border-bottom: 1px dashed black;
+      width: 375px;
+      margin-bottom: 50px;
+      padding-bottom: 20px;
+  }
+
+ .about-content .cards h3 {
+      margin-top: 10px;
+  }
+
+  .about-content .cards button {
+      background: white;
+      border-radius: 8px;
+      height: 40px;
+      width: 130px;
+      margin-top: 20px;
+      font-size: 16px;
+      border: 2px solid black;
+
+  }
+
+.lwt-section {
+    margin-left: 20px;
+    margin-bottom: 40px
 }
